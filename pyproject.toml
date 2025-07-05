@@ -1,0 +1,13 @@
+[project]
+name = "llm-101"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.8.1",
+    "bitsandbytes>=0.46.1",
+    "torch>=2.7.1",
+    "torchvision>=0.22.1",
+    "transformers>=4.53.1",
+]
